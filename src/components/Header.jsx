@@ -21,7 +21,7 @@ const Header = () => {
   return (
     <nav>
         <div className='logo'>
-        <h1><Link to={"/"}>TechStar.</Link></h1>
+        <h1><Link to={"/"}>Techhub</Link></h1>
         <IoIosMenu  id='menu' onClick={handleOnClick}/>
         </div>
         <main className={menu ? "open" : null}>
