@@ -36,22 +36,28 @@ const Home = () => {
         <div>
             <h2>Brands</h2>
             <article>
-                <div style={{animationDelay:"0.3s"}}>
+                
+
+                <a href="javascript:void(0)" style={{animationDelay:"0.3s"}} target="_blank" rel="noopener noreferrer">
                     <AiFillGoogleCircle/>
                     <p>Google</p>
-                </div>
-                <div style={{animationDelay:"0.5s"}}>
+                </a>
+
+                <a href="javascript:void(0)" style={{animationDelay:"0.5s"}} target="_blank" rel="noopener noreferrer">
                     <AiFillAmazonCircle/>
                     <p>Amazon</p>
-                </div>
-                <div style={{animationDelay:"0.7s"}}>
+                </a>
+
+                <a href="javascript:void(0)" style={{animationDelay:"0.7s"}} target="_blank" rel="noopener noreferrer">
                     <AiFillYoutube/>
                     <p>Youtube</p>
-                </div>
-                <div style={{animationDelay:"0.9s"}}>
-                    <AiFillInstagram/>
+                </a>
+
+                <a href="javascript:void(0)" style={{animationDelay:"0.9s"}} target="_blank" rel="noopener noreferrer">
+                        <AiFillInstagram/>
                     <p>Instagram</p>
-                </div>
+                </a>
+
             </article>
         </div>
     </div>
