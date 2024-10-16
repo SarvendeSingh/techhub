@@ -11,11 +11,12 @@ import './styles/Footer.scss';
 import './styles/contact.scss';
 import './styles/services.scss';
 import './styles/responsive.scss';
-
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <Router>
+      <ScrollToTop/>
       <Header/>
         <Routes>
           <Route  path="/" element={<Home/>}/>
