@@ -33,13 +33,21 @@
                     width: 20%;
                     margin: 0 1rem;
                 }
-                > input {
-                    align-self: stretch;
+                > div{
                     width: 80%;
-                    padding: 1rem;
-                    border-radius: 5px;
-                    border: 1px solid rgba(123,123,123,0.6);
-                    outline: none;
+                    input {
+                        align-self: stretch;
+                        width: 100%;
+                        padding: 1rem;
+                        border-radius: 5px;
+                        border: 1px solid rgba(123,123,123,0.6);
+                        outline: none;
+                    }
+                    .error{
+                        color: red;
+                        font-size: 14px;
+                        margin-top: 5px;
+                    }
                 }
             }
             > button {
